@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="shortcut icon" href="./src/images/todolist.ico"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="title_area">
+                <form class="name">
+                    <input class="input" type="text" placeholder="What is your name?">
+                </form>
+                <h1 class="title">ToDo List</h1>
+            </div>
+            <div class="date_area">00.00.00 00:00</div>
+        </header>
+        <section class="content">
+            <div class="info_area">
+                <!-- Goal -->
+                <div class="info_box info_goal">
+                    <h2 class="sub_title">Goal</h2>
+                    <div class="goal">
+                        <textarea class="input" type="text" placeholder="오늘의 목표" rows="2"></textarea>
+                    </div>
+                </div>
+                <!-- Rate -->
+                <div class="info_box">
+                    <h2 class="sub_title">Rate</h2>
+                    <div class="bar">
+                        <div class="active_bar">
+                            <img src="./src/images/img1.png" class="emotion" width="30" height="30">
+                            <div class="tooltip">분발하세요!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- todo list -->
+            <div class="list_area">
+                <h2 class="sub_title">List</h2>
+                <div class="add_area">
+                    <form class="add_form">
+                        <input class="add_input" type="text" placeholder="Write a to do" />
+                        <button class="submit_btn btn" type="submit">
+                            <img src="./src/images/icon_add.png" alt="추가하기" width="16" height="16">
+                        </button>
+                    </form>
+                </div>
+                <ul class="todo_list"></ul>
+            </div>
+            <!-- memo -->
+            <div class="memo_area">
+                <h2 class="sub_title">Memo</h2>
+                <div class="memo">
+                    <textarea class="input" type="text" placeholder="Write a memo" rows="2"></textarea>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./src/js/clock.js"></script>
+    <script src="./src/js/name.js"></script>
+    <script src="./src/js/goal.js"></script>
+    <script src="./src/js/memo.js"></script>
+    <script src="./src/js/todo.js"></script>
+</body>
+</html>
