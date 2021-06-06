@@ -1,0 +1,151 @@
+@import "reset.css";
+
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    background-color: #ececec;
+}
+.wrap {
+    max-width: 500px;
+    height: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.start {
+
+}
+
+.title {
+    display: block;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.startDesc {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.startDesc:after {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 0;
+    background-color: yellowgreen;
+    content: "";
+}
+
+.startBtn {
+    display: block;
+    width: 270px;
+    margin: 30px auto 0;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.question {
+    display: none;
+}
+
+.header {
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #333;
+}
+
+.subTitle {
+    float: left;
+}
+
+.status {
+    float: right;
+}
+
+.progress {
+    position: relative;
+    height: 10px;
+    margin-top: 10px;
+    background-color: #ebebeb;
+    border-radius: 3px;
+}
+
+.progressBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 10px;
+    background-color: #FEA443;
+    border-radius: 3px;
+}
+
+.questionTitle {
+    display: block;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.btnArea {
+    margin-top: 20px;
+}
+
+.btn {
+    display: block;
+    width: 260px;
+    height: 80px;
+    padding: 0 20px;
+    margin: 0 auto;
+    border-radius: 45px;
+    border: solid 1px #cfcfcf;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn + .btn {
+    margin-top: 10px;
+}
+
+.split {
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #c1c1c1;
+}
+
+.result {
+    display: none;
+}
+
+.mbtiTitle {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FEA443;
+}
+
+.desc {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #212121;
+    word-break: keep-all;
+}
+

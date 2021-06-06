@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width==device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <title>MBTI</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="start">
+            <h1 class="title">나는 어떤 빵일까?</h1>
+            <p class="startDesc">빵으로 알아보는 MBTI 유형</p>
+            <button class="startBtn">START</button>
+        </div>
+        <div class="question">
+            <div class="header"><strong class="subTitle">빵BTI</strong><span class="status">1/12</span></div>
+            <div class="progress">
+                <div class="progressBar"></div>
+            </div>
+            <h2 class="questionTitle">문제</h2>
+            <input type="hidden" id="type" value="EI">
+            <div class="btnArea">
+                <button class="btn" id="A">1</button>
+                <span class="split">VS</span>
+                <button class="btn" id="B">1</button>
+            </div>
+            <input type="hidden" id="EI" value="0">
+            <input type="hidden" id="SN" value="0">
+            <input type="hidden" id="TF" value="0">
+            <input type="hidden" id="JP" value="0">
+        </div>
+        <div class="result">
+            <img src="" alt="" class="img" width="200">
+            <h2 class="mbtiTitle">"빵 이름"</h2>
+            <P class="desc">설명</P>
+        </div>
+    </div>
+    <script src="./src/js/mbit.js"></script>
+</body>
+</html>
